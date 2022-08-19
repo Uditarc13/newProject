@@ -9,7 +9,7 @@ public class ParkingTicketApplication
 	public static void main(String[] args)
 	{
 		
-		System.out.println("Enter  number of cars already present in the parking lot: ");
+		System.out.println("Enter number of cars already present in the parking lot: ");
 		int noOfCarsGiven=sc.nextInt();
 		int carsPresent=isValidInput(noOfCarsGiven);
 		Parking[] parkingTickets= new Parking[100];
@@ -17,7 +17,7 @@ public class ParkingTicketApplication
 		System.out.println("Check if parking slots are available: ");
 		if(carsPresent<100)
 		{
-			System.out.println("The parking slots are available");
+			System.out.println("The parking slots that are available");
 			int choice;
 			do
 			{
