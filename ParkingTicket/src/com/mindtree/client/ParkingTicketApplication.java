@@ -9,7 +9,7 @@ public class ParkingTicketApplication
 	public static void main(String[] args)
 	{
 		
-		System.out.println("Enter the number of cars already present in the parking lot: ");
+		System.out.println("Enter  number of cars already present in the parking lot: ");
 		int noOfCarsGiven=sc.nextInt();
 		int carsPresent=isValidInput(noOfCarsGiven);
 		Parking[] parkingTickets= new Parking[100];
