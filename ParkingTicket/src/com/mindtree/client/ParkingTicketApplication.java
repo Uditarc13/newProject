@@ -17,7 +17,7 @@ public class ParkingTicketApplication
 		System.out.println("Check if parking slots are available: ");
 		if(carsPresent<100)
 		{
-			System.out.println("The parking slots that are available");
+			System.out.println("The parking slots that are available :");
 			int choice;
 			do
 			{
